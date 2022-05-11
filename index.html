@@ -1,0 +1,387 @@
+<!DOCTYPE html>         
+<html lang="sv">
+<head>
+    <title>Pizzeria Colosseum</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Detta är Header start -->
+    <header class="header">
+      <div class="container">
+          <div class="row justify-content-between align-items-center">
+             <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>  
+             </div>  
+            <button type="button" class="nav-toggler">
+                <span></span>
+            </button>  
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item"><a href="#home">Hem</a></li>
+                    <li class="nav-item"><a href="#about">Om oss</a></li>
+                    <li class="nav-item"><a href="#our-menu">Våran Meny</a></li>
+                    <li class="nav-item"><a href="#testimonials">Recensioner</a></li>
+                    <li class="nav-item"><a href="#team">Vårat team</a></li>
+                    <li class="nav-item"><a href="#footer">Kontakta oss</a></li>
+                </ul>
+            </nav>        
+          </div>
+      </div>    
+    </header>
+   
+    <!-- Detta är Headerns slut -->
+
+    <!-- hem sektionens start -->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="video">
+        <video autoplay loop muted >
+            <source src="img/home-bg_Trim.mp4" type="video/mp4">
+        </video></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text" data-aos="fade-up"  data-aos-duration="1000">
+                    <h1>Pizzeria Colosseum</h1>
+                    <p>Pizzor, Kebabpizzor, Kycklingpizzor, Pizza med fläskfilé,
+                       Pizza med skaldjur, Pizza med Oxfilé, Pizza med köttfärssås, 
+                       Kebab, Kyckling, Sallad, Hamburgare, Falafel</p>
+                    <a href="#our-menu" class="btn btn-deafult">Våran meny</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- home sektionens slut -->
+
+    <!-- om oss sektionens start  -->
+         <section class="about-section sec-padding" id="about">
+             <div class="container">
+                 <div class="row">
+                     <div class="section-title">
+                         <h2 data-title="våran historia">Om oss</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="about-text">
+                        <h3>Välkommn till Pizzeria Colosseum</h3>
+                        <p>Colosseum Pizzeria fick sitt namn efter en koloss, det vill säga en enorm staty av kejsar Nero som stod vid sidan om byggnaden, i riktning mot Forum Romanum. Neros staty, som var 40 meter hög, var utförd i förgylld brons. Det officiella namnet på Colosseum är dock Amphiteatrum Flavium eller Den flaviska amfiteatern, eftersom den uppfördes under den tid då den flaviska ätten innehade kejsarmakten. Kolossen av Nero smältes senare ner för tillverkning av vapen. Även armeringen till Colosseum drogs ut och smältes ner till vapen, vilket ledde till att en stor del av byggnadens yttre del rasade samman vid ett jordskalv. Efter detta har stora mängder vit marmor bortförts från byggnaden, bland annat till bygget av Peterskyrkan och Fontana di Trevi. Den del av byggnaden som återstår är ännu en mäktig syn och ett populärt turistmål.</p>
+                        <a href="#our-menu" class="btn btn-default">kika in på vår meny</a>
+                    </div>
+                     <div class="about-img">
+                        <div class="img-box">
+                            <h3>Colosseum Rom</h3>
+                            <img src="img/om oss/om oss.webp" alt="Om oss bild">
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+    <!-- om oss sektionens slut -->
+    
+    <!-- menu start-->
+    <section class="menu-section sec-padding" id="our-menu">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="order now">Våran meny</h2>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="menu-tabs">
+                    <button type="button" class="menu-tab-item active" data-target="#pizzor">Pizzor</button>
+                    <button type="button" class="menu-tab-item" data-target="#sallad">Sallad</button>
+                    <button type="button" class="menu-tab-item" data-target="#hamburgare">Hamburgare</button>
+                    <button type="button" class="menu-tab-item" data-target="#falafel">Falafel</button>
+                </div>
+            </div> 
+            <div class="row menu-tab-content active" id="pizzor">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/Margaretaa.webp" alt="Margareta">
+                        <h3>Margareta</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        90:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kebabpizza.jpg" alt="Kebab Pizza">
+                        <h3>Kebab Pizza</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kycklingpizza.jpg" alt="Kyckling Pizza">
+                        <h3>Kyckling Pizza</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/batman.jpg" alt="Batman">
+                        <h3>Batman</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="sallad">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kycklingsallad.jpg" alt="Kycklingsallad">
+                        <h3>Kycklingsallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kebabsallad.jpg" alt="Kebabsallad">
+                        <h3>Kebabsallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/räksallad.jpeg" alt="Räksallad">
+                        <h3>Räksallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hawaiisallad.jpg" alt="Hawaiisallad">
+                        <h3>Hawaiisallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row menu-tab-content" id="hamburgare">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare90g.jpg" alt="Hamburgare 90gr">
+                        <h3>Hamburagre 90gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        70:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare90g.jpg" alt="Hamburgare 90gr">
+                        <h3>Hamburagre 90gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        90:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare 150g.jpg" alt="Hamburgare 150gr">
+                        <h3>Hamburagre 150gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        80:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare.jpeg" alt="Hamburgare 150gr">
+                        <h3>Hamburagre 150gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        100:-
+                    </div>
+                </div>
+
+            </div>
+            <div class="row menu-tab-content" id="falafel">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/falafelrulle.jpg" alt="Falafelrulle">
+                        <h3>Falafelrulle</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/falafeltallrik.jpg" alt="Falafeltallrik">
+                        <h3>Falafeltallrik</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+
+    <!-- menyn slut-->
+
+    <!-- recensioner start-->
+    <section class="testimonials-section sec-padding" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="testimonials">Våra recensioner</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Ricardo Haddad</h3>
+                            <span>mat specialist</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <img src="img/testimonials/3" alt="testi author img">
+                        </div>
+                    </div>
+                    <p>Bästa servitrisen på länge, gjorde att det blev väldigt barnvänligt besök. Även goda pizzor!</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Anto Dujak</h3>
+                            <span>mat specialist</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <img src="img/testimonials/1.jpg" alt="testi author img">
+                        </div>
+                    </div>
+                    <p>Bra mat, trevlig personal och bemötandet är klass. Precis vad man vill ha!</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Senaria Samin</h3>
+                            <span>mat specialist</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <img src="img/testimonials/2.jpg" alt="testi author img">
+                        </div>
+                    </div>
+                    <p>Otroligt! Aldrig ätit en större eller godare pizza i hela mitt liv!  Fint bemötande och trevlig personal.</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- recensioner slut-->
+
+    <!-- Vårat team -->
+    <section class="team-section sec-padding" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="team"> Vårat Team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-item">
+                    <img src="img/team/kock1.png" alt="kock">
+                    <div class="team-item-info">
+                        <h3>Malin Gustavsson</h3>
+                        <p>Chefskock</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/team/kock2.jpg" alt="kock">
+                    <div class="team-item-info">
+                        <h3>Pontus Andersson</h3>
+                        <p>Kock</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/team/kock3.jpg" alt="kock">
+                    <div class="team-item-info">
+                        <h3>Vera Falkenberg</h3>
+                        <p>Kock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Vårat team slut -->
+
+    <!-- Footer start -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-item">
+                <h3>Hitta oss</h3>
+                <p>Trandaredsgatan 20,<br>507 62 Borås</p>
+                </div>
+                <div class="footer-item">
+                    <h3>Öppet tider</h3>
+                    <p>Måndag - Fredag <br> 11:00 - 21:00 <br>Lördag - Söndag <br> 12:00 - 21:00</p>
+                </div>
+                <div class="footer-item">
+                    <h3>Kontakta Oss</h3>
+                    <p>033-15 53 53</p>
+                    <p>info@pizzeriacolosseum.se<p>    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>       
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    &copy; 2022 - Designed by Ricardo Haddad
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer slut -->
+    <script src="js/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
